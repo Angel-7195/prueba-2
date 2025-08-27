@@ -34,7 +34,7 @@ class Estudiante:
                self.promedio = sum(self.notas.values()) / len(self.notas)
                print(f"nota {nota} agregada a la materia '{materia}'.")
           else:
-               print("f no puedes agregar a {materia} porque no esta inscrita")
+               print(f"no puedes agregar a {materia} porque no esta inscrita")
                
      
 estudiante = Estudiante("María González", 20, "Ingeniería de Sistemas")
